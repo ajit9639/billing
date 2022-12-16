@@ -7,6 +7,8 @@
                 <h6 class="modal-title">invoice View Detail</h6>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
+
+            
             <!-- Modal body -->
             <div class="modal-body">
                 <form method="POST" action="/invoice/insert">
