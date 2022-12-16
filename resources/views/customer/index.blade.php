@@ -10,7 +10,7 @@
             <div class="col-lg-12">
                 <div class="d-flex flex-wrap flex-wrap align-items-center justify-content-between mb-4">
                     <div>
-                        <h4 class="mb-3">Product List</h4>                        
+                        <h4 class="mb-3">Customer List</h4>                        
                     </div>
                     <a data-toggle="modal" data-target="#myModal_view" class="btn-sm text-white btn btn-primary add-list"><i class="las la-plus mr-3"></i>Add Customer</a>
                 </div>

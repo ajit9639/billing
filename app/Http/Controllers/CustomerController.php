@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Customer;
+use App\Models\State;
 use Illuminate\Http\Request;
 
 class CustomerController extends Controller
@@ -16,7 +17,8 @@ class CustomerController extends Controller
     public function index()
     {
         $customer = Customer::get();
-        return view('customer/index',['customer' => $customer]);
+        $state = State::get();
+        return view('customer/index',['customer' => $customer , 'state' => $state]);
     }
 
     /**

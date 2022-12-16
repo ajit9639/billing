@@ -1,4 +1,4 @@
-<footer class="iq-footer" style="position: absolute;bottom:0px;">
+{{-- <footer class="iq-footer" style="position: absolute;bottom:0px;">
     <div class="container-fluid">
         <div class="card">
             <div class="card-body">
@@ -20,4 +20,4 @@
             </div>
         </div>
     </div>
-</footer>
+</footer> --}}

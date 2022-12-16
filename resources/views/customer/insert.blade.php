@@ -22,8 +22,16 @@
                         </div>
                         <div class="col-sm-6">
                             <label>State:</label>
-                            <input type="text" class="form-control"  placeholder="Enter Name" name="state">
+                            {{-- <input type="text" class="form-control"  placeholder="Enter Name" name="state"> --}}
+
+                            <select name="state" class="form-control">
+                                <option value="">Select State</option>
+                                @foreach ($state as $state)                                    
+                                <option value="{{ $state->id }}">{{ $state->name }}</option>
+                                @endforeach
+                            </select>
                         </div>
+                        
                         <div class="col-sm-6">
                             <label>GST NO:</label>
                             <input type="text" class="form-control"  placeholder="Enter Name" name="gstno">
